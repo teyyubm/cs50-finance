@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block title %}Quoted{% endblock %}
+{% block main %}
+<p>A share of {{ name }} ({{ symbol }}) costs {{ price | usd }}.</p>
+<p><a href="/quote">Get another quote</a></p>
+{% endblock %}

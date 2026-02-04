@@ -1,0 +1,53 @@
+/* Allow bootstrap to take over */
+nav .navbar-brand {
+    font-size: xx-large;
+}
+
+nav .navbar-brand .blue {
+    color: #537fbe;
+}
+
+nav .navbar-brand .red {
+    color: #ea433b;
+}
+
+nav .navbar-brand .yellow {
+    color: #f5b82e;
+}
+
+nav .navbar-brand .green {
+    color: #2e944b;
+}
+
+main .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+main td,
+main th {
+    vertical-align: middle;
+}
+
+main td:first-of-type,
+main th:first-of-type {
+    height: 3rem;
+}
+
+main td:first-of-type div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main img {
+    height: 2rem;
+}
+
+main tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+main thead th {
+    border-top: none;
+}

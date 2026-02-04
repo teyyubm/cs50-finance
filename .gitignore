@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.local
+*.env
+
+# Database (may contain user data)
+*.db
+finance.db
+
+# Flask session files
+flask_session/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

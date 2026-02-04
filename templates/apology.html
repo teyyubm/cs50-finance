@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %}Error{% endblock %}
+{% block main %}
+<div class="text-center">
+    <img alt="Sorry!" class="border" src="https://api.memegen.link/images/custom/{{ top | string | urlencode }}/{{ bottom | urlencode }}.jpg?background=https://i.imgur.com/CsCgN7Ll.png" title="{{ top }}">
+</div>
+{% endblock %}
